@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,Firefox 59.0,,2018-04-24 16:57:54,2018-04-24 16:58:29,34.708s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Firefox 59.0,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2018-04-24 16:57:55,2018-04-24 16:58:14,18.966s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:57:55,2018-04-24 16:57:55,0.051s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:57:55,2018-04-24 16:57:55,0.008s,PASSED
+openBrowser,Firefox 59.0,,2018-04-24 16:57:55,2018-04-24 16:58:11,15.934s,PASSED
+click,Firefox 59.0,,2018-04-24 16:58:11,2018-04-24 16:58:12,0.910s,PASSED
+setText,Firefox 59.0,,2018-04-24 16:58:12,2018-04-24 16:58:12,0.123s,PASSED
+setText,Firefox 59.0,,2018-04-24 16:58:12,2018-04-24 16:58:12,0.139s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:58:12,2018-04-24 16:58:12,0.002s,PASSED
+click,Firefox 59.0,,2018-04-24 16:58:12,2018-04-24 16:58:13,0.793s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:58:13,2018-04-24 16:58:13,0.001s,PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Firefox 59.0,,2018-04-24 16:58:13,2018-04-24 16:58:13,0.038s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-24 16:58:13,2018-04-24 16:58:14,0.409s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Firefox 59.0,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2018-04-24 16:58:14,2018-04-24 16:58:29,15.184s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:58:14,2018-04-24 16:58:14,0.002s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:58:14,2018-04-24 16:58:14,0.002s,PASSED
+openBrowser,Firefox 59.0,,2018-04-24 16:58:14,2018-04-24 16:58:24,10.447s,PASSED
+callTestCase,Firefox 59.0,,2018-04-24 16:58:24,2018-04-24 16:58:27,2.208s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:58:27,2018-04-24 16:58:27,0.001s,PASSED
+Statement - If (true),Firefox 59.0,,2018-04-24 16:58:27,2018-04-24 16:58:28,1.166s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:58:28,2018-04-24 16:58:28,0.001s,PASSED
+click,Firefox 59.0,,2018-04-24 16:58:28,2018-04-24 16:58:28,0.455s,PASSED
+verifyTextPresent,Firefox 59.0,,2018-04-24 16:58:28,2018-04-24 16:58:28,0.168s,PASSED
+comment,Firefox 59.0,,2018-04-24 16:58:28,2018-04-24 16:58:28,0.001s,PASSED
+Statement - If (true),Firefox 59.0,,2018-04-24 16:58:28,2018-04-24 16:58:28,0.150s,PASSED
+closeBrowser,Firefox 59.0,,2018-04-24 16:58:28,2018-04-24 16:58:29,0.379s,PASSED

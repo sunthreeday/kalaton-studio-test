@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="1" tests="0" failures="2" errors="0">
+   <testsuite name="TS_RegressionTest" tests="0" failures="2" errors="0" time="1" timestamp="2018-04-24 16:26:15" hostname="\uFFFD\u07F9\uFFFD - LAPTOP-I57JRPOG" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\TEST\\Katalon Studio\\TestBaidu\\Reports\\TS_RegressionTest\\20180424_162613"/>
+         <property name="logFiles" value="E:\\TEST\\Katalon Studio\\TestBaidu\\Reports\\TS_RegressionTest\\20180424_162613\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="\uFFFD\u07F9\uFFFD - LAPTOP-I57JRPOG"/>
+         <property name="hostAddress" value="192.168.2.115"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Main Test Cases/TC1_Verify Successful Login" classname="Test Cases/Main Test Cases/TC1_Verify Successful Login" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)"/>
+         <system-out><![CDATA[2018-04-24 16:26:16 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)
+
+2018-04-24 16:26:16 - [TEST_STEP][PASSED] - comment: Story: Login to CURA system
+
+2018-04-24 16:26:16 - [TEST_STEP][PASSED] - comment: Given that the user has the valid login information
+
+2018-04-24 16:26:16 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)
+
+2018-04-24 16:26:17 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)]]></system-out>
+         <system-err><![CDATA[2018-04-24 16:26:16 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC1_Verify Successful Login: Test Cases/Main Test Cases/TC1_Verify Successful Login FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" classname="Test Cases/Main Test Cases/TC2_Verify Successful Appointment" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)"/>
+         <system-out><![CDATA[2018-04-24 16:26:17 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)
+
+2018-04-24 16:26:17 - [TEST_STEP][PASSED] - comment: Story: Book an appointment
+
+2018-04-24 16:26:17 - [TEST_STEP][PASSED] - comment: Given that the user has logged into their account
+
+2018-04-24 16:26:17 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)
+
+2018-04-24 16:26:17 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)]]></system-out>
+         <system-err><![CDATA[2018-04-24 16:26:17 - [TEST_CASE][FAILED] - Test Cases/Main Test Cases/TC2_Verify Successful Appointment: Test Cases/Main Test Cases/TC2_Verify Successful Appointment FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-24 16:26:15 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/Main Test Cases/TC1_Verify Successful Login FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)]]></system-out>
+      <system-err><![CDATA[2018-04-24 16:26:15 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/Main Test Cases/TC1_Verify Successful Login FAILED because (of) Unable to open browser with url: 'http://demoaut.katalon.com' (Root cause: java.lang.IllegalStateException: The driver executable does not exist: E:\�������\����\Katalon_Studio_Windows_64-5.4.1\Katalon_Studio_Windows_64-5.4.1\configuration\resources\drivers\chromedriver_win32\chromedriver.exe)]]></system-err>
+   </testsuite>
+</testsuites>

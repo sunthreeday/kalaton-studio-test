@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,Chrome 66.0.3359.117,,2018-04-24 16:56:26,2018-04-24 17:00:57,4m - 30.798s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,Chrome 66.0.3359.117,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2018-04-24 16:56:27,2018-04-24 16:59:25,2m - 57.837s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 16:56:27,2018-04-24 16:56:27,0.053s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 16:56:27,2018-04-24 16:56:27,0.004s,PASSED
+openBrowser,Chrome 66.0.3359.117,,2018-04-24 16:56:27,2018-04-24 16:59:21,2m - 54.225s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 16:59:21,2018-04-24 16:59:23,1.320s,PASSED
+setText,Chrome 66.0.3359.117,,2018-04-24 16:59:23,2018-04-24 16:59:23,0.176s,PASSED
+setText,Chrome 66.0.3359.117,,2018-04-24 16:59:23,2018-04-24 16:59:23,0.188s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 16:59:23,2018-04-24 16:59:23,0.001s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 16:59:23,2018-04-24 16:59:24,0.624s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 16:59:24,2018-04-24 16:59:24,0.002s,PASSED
+"Statement - landingPage = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Page_CuraAppointment/div_Appointment), G_Timeout)",Chrome 66.0.3359.117,,2018-04-24 16:59:24,2018-04-24 16:59:24,0.078s,PASSED
+closeBrowser,Chrome 66.0.3359.117,,2018-04-24 16:59:24,2018-04-24 16:59:25,0.680s,PASSED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,Chrome 66.0.3359.117,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2018-04-24 16:59:25,2018-04-24 17:00:57,1m - 32.547s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 16:59:25,2018-04-24 16:59:25,0.001s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 16:59:25,2018-04-24 16:59:25,0.001s,PASSED
+openBrowser,Chrome 66.0.3359.117,,2018-04-24 16:59:25,2018-04-24 17:00:53,1m - 28.396s,PASSED
+callTestCase,Chrome 66.0.3359.117,,2018-04-24 17:00:53,2018-04-24 17:00:55,1.913s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 17:00:55,2018-04-24 17:00:55,0.002s,PASSED
+Statement - If (true),Chrome 66.0.3359.117,,2018-04-24 17:00:55,2018-04-24 17:00:56,0.715s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 17:00:56,2018-04-24 17:00:56,0.003s,PASSED
+click,Chrome 66.0.3359.117,,2018-04-24 17:00:56,2018-04-24 17:00:56,0.359s,PASSED
+verifyTextPresent,Chrome 66.0.3359.117,,2018-04-24 17:00:56,2018-04-24 17:00:56,0.134s,PASSED
+comment,Chrome 66.0.3359.117,,2018-04-24 17:00:56,2018-04-24 17:00:56,0.001s,PASSED
+Statement - If (true),Chrome 66.0.3359.117,,2018-04-24 17:00:56,2018-04-24 17:00:56,0.225s,PASSED
+closeBrowser,Chrome 66.0.3359.117,,2018-04-24 17:00:56,2018-04-24 17:00:57,0.665s,PASSED

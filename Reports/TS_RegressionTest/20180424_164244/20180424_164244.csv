@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,,,2018-04-24 16:42:45,2018-04-24 16:42:47,1.765s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC1_Verify Successful Login,,Verify if users can login successful. \n\nSteps:\n- Click on 'Book Appointment' button to login\n- Input username and password\n- Click on 'Login' button\n\nExpected result:\n'Appointment' section is displayed after successful login,2018-04-24 16:42:46,2018-04-24 16:42:47,1.125s,FAILED
+comment,,,2018-04-24 16:42:46,2018-04-24 16:42:46,0.066s,PASSED
+comment,,,2018-04-24 16:42:46,2018-04-24 16:42:46,0.002s,PASSED
+openBrowser,,,2018-04-24 16:42:46,2018-04-24 16:42:47,0.567s,FAILED
+,,,,,,
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment,,Verify if users can book an appointment sucessfully.\nPre-condition: Users have already logged in\n\nSteps:\n- Fill in appoinment's information\n- Click on appointment's button\n\nExpected results:\nAppointment Confirmation page is displayed,2018-04-24 16:42:47,2018-04-24 16:42:47,0.223s,FAILED
+comment,,,2018-04-24 16:42:47,2018-04-24 16:42:47,0.003s,PASSED
+comment,,,2018-04-24 16:42:47,2018-04-24 16:42:47,0.004s,PASSED
+openBrowser,,,2018-04-24 16:42:47,2018-04-24 16:42:47,0.020s,FAILED
